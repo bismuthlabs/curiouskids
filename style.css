@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px 24px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.header-content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content ul li {
+    margin: 8px 16px;
+}
+
+.header-content ul li a {
+    color: white;
+    padding: 0 12px;
+}
+
+.header-content ul .ask-btn {
+    background-color: black;
+    padding: 5px 16px;
+    border-radius: 5px;
+}
+
+.header-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-content ul .ask-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+.image-container img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+    margin: 24px 0;
+    font-size: 40px;
+}
+
+main h3 {
+    text-align: center;
+    margin: 18px 0;
+}
+
+.author {
+    background-color: lavender;
+    text-align: center;
+    margin: 16px 0;
+    padding: 16px;
+}
+
+.author div {
+    padding: 12px;
+}
+
+.author div p {
+    margin: 8px 0;
+}
+
+article {
+    margin: 0 34px;
+}
+
+article p {
+    margin: 12px 0;
+}
+
+article h2 {
+    margin-top: 18px;
+}
+
+.reference {
+    margin: 24px 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: lavender;
+    padding: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        margin: 0;
+        width: 100%;
+        padding: 16px 18px;
+    }
+    
+    header h1 {
+        font-size: 16px;
+    }
+
+    main h1 {
+        font-size: 30px;
+    }
+
+    article {
+        margin: 0 12px;
+    }
+}
